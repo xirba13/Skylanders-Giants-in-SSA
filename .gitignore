@@ -1,0 +1,31 @@
+build/
+__pycache__/
+*.pyc
+# your own game paths (tools/paths.py)
+paths.local.json
+
+# Never commit game data (extracted, converted or patched), disc images, figure dumps, firmware or logs
+*.iso
+*.wbfs
+*.wbf[0-9]
+*.rvz
+*.wia
+*.ciso
+*.dol
+*.elf
+*.arc
+*.bld
+*.pak
+*.igz
+*.fsb
+*.wav
+*.bnr
+*.tpl
+*.sky
+*.bin
+*.dump
+*.sav0
+*.sav1
+*.wad
+*.map
+*.log
